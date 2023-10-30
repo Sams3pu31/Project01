@@ -2,7 +2,7 @@ public class TrainingJavaStroke {
     public static void main(String[] args) {
         String string = "Training Java";
 
-        // Получим длину строки
+        // Получим длину строки из строки выше
         int length = string.length();
 
         // Получим символ на 5-й позиции (индекс 4, так как отсчет идет с нуля)
