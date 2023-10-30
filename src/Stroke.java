@@ -5,6 +5,6 @@ public class Stroke {
         String string3 = "А здесь" + " мы используем" + " конкатенацию";
         System.out.println(string1);
         System.out.println(string2);
-        System.out.println(string1 + string2);
         System.out.println(string3);
+        System.out.println(string1 + string2);
     }}

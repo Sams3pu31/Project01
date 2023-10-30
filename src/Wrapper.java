@@ -1,7 +1,7 @@
 public class Wrapper {
     public static void main(String[] args) {
         //Упаковываем целочисленные типы данных
-        int a = 42;
+        int a = 41;
         Integer boxedInt1;
         boxedInt1 = new Integer(a);      //обычное создание через конструктор
         Integer boxedInt2;
@@ -9,7 +9,7 @@ public class Wrapper {
         Integer boxedInt3;
         boxedInt3 = a;                     //автоматическая упаковка
 
-        byte b = 127;
+        byte b = 126;
         Byte boxedByte1;
         boxedByte1 = new Byte(b);      //обычное создание через конструктор
         Byte boxedByte2;
@@ -17,7 +17,7 @@ public class Wrapper {
         Byte boxedByte3;
         boxedByte3 = b;                     //автоматическая упаковка
 
-        short c = 1000;
+        short c = 1001;
         Short boxedShort1;
         boxedShort1 = new Short(c);      //обычное создание через конструктор
         Short boxedShort2;
@@ -25,7 +25,7 @@ public class Wrapper {
         Short boxedShort3;
         boxedShort3 = c;                     //автоматическая упаковка
 
-        long d = 1234567890L;
+        long d = 1234567889L;
         Long boxedLong1;
         boxedLong1 = new Long(d);      //обычное создание через конструктор
         Long boxedLong2;

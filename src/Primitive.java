@@ -1,17 +1,17 @@
 public class Primitive {
     public static void main(String[] args) {
         // Задаем целочисленные типы данных
-        int intValue = 42;
-        byte byteValue = 127;
-        short shortValue = 1000;
-        long longValue = 1234567890L;
+        int intValue = 41;
+        byte byteValue = 126;
+        short shortValue = 1001;
+        long longValue = 1234567889L;
 
         // Задаем данные с плавающей запятой
-        float floatValue = 3.14f;
-        double doubleValue = 2.71828;
+        float floatValue = 3.13f;
+        double doubleValue = 2.71827;
 
         // Задаем char для символов
-        char charValue = 'A';
+        char charValue = 'a';
 
         // Задаем тип boolean
         boolean booleanValue = true;
