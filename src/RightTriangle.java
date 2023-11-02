@@ -15,10 +15,10 @@ public class RightTriangle {
         System.out.println("Периметр треугольника: " + perimeter);
 
         // сравним периметр и площадь, с условием площадь меньше 30 и периметр больше 15)
-        boolean result = (area < 30) || (perimeter > 15);
+        boolean result = (area < 30) && (perimeter > 15);
 
         // Выведем результаты
 
-        System.out.println("Сравнение периметра и площади" + result);
+        System.out.println("Сравнение периметра и площади " + result);
 
     }}
