@@ -10,7 +10,7 @@ public class UnarOperation {
         y--;
 
         // Проверяем условие x >= 51 или y < 22
-        boolean condition = (x >= 51) && (y < 22);
+        boolean condition = (x >= 51) || (y < 22);
 
         // Выводим результат проверки условия на экран
         System.out.println("Результат x++: " + x);
